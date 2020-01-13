@@ -1,28 +1,30 @@
-# Template Repository for Unity2D version 2019.1.14f1
+# Moving Tux - an awesome but pointless game!
 
-### Project description: 
-Introduction/Project summary 
+[CLICK HERE TO PLAY](https://5ahmnm1920mtin-3h.github.io/home-WebGL-movingball-vTschopp/)
 
-### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+## Project description: 
+This simple project consists of a screen-independent canvas (900x600), a button (Move ball), a text
+(title with developer name), a script (moving the ball with the button), and a GameObjects Tux mascot (sprite2d imported).
 
-### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+When pressing the button "Move ball" tux moves randomly to a new position.
+4 Positions are available (4 empty GameObjects: Pos1, Pos2, Pos3, Pos4).
 
-### Visuals: 
-Screenshots (concept and experience), Video
+## Development platform: 
+* Unity 2019.1.14f1 on macOS Catalina
+  * Scripting Runtime: .NET 4.x Equivalent
+  * API-Level: .NET Standard 2.0
+* Visual Studio for Mac Community v8.3.10 (build 2)
 
-### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+## Target platform: 
+WebGL (900x600) - tested on Firefox
 
-### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+## Third party material: 
+Tux Linux mascot: [Tux.svg](https://commons.wikimedia.org/wiki/File:Tux.svg)
 
-### Project state: 
-incl. progress in percent
+## Project state: 
+100 % - finished.
 
-### Limitations: 
+## Limitations:
+Instead of 960x600 the screen size is only 900x600.
 
-### Lessons Learned: 
-
-Copyright by you :)
+&copy; 2020 NotMyTschopp
